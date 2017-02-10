@@ -30,7 +30,7 @@ requirements:
     - freetype ==2.6.3  [win]
     - freetype          [osx and linux]
     - gcc               [linux]
-
+    - smesh ==6.7.2
   run:
     - pyqt >=5
     - oce ==0.18.1
@@ -38,6 +38,7 @@ requirements:
     - freetype ==2.6.3  [win]
     - freetype          [osx and linux]
     - pyobjc-core       [osx and py27]
+    - smesh ==6.7.2
 
 test:
   requires:
