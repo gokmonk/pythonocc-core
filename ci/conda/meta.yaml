@@ -30,8 +30,7 @@ requirements:
     - freetype ==2.6.3  [win]
     - freetype          [osx and linux]
     - gcc               [linux]
-    - smesh ==6.7.2
-    - boost
+    - smesh ==6.7.3
 
   run:
     - pyqt >=5
@@ -40,14 +39,14 @@ requirements:
     - freetype ==2.6.3  [win]
     - freetype          [osx and linux]
     - pyobjc-core       [osx and py27]
-    - smesh ==6.7.2
+    - smesh ==6.7.3
 
 test:
   requires:
     - scipy
     - wxpython          [py27]
     - pyside            [py27]
-    - smesh ==6.7.2
+    - smesh ==6.7.3
 
 about:
   home: https://github.com/tpaviot/pythonocc-core
